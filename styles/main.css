@@ -101,6 +101,8 @@ header {
     /* display: none;   */
     display: block;
     height: 100vh;
+    max-width: 304px;
+    min-width: 196px;
     width: 25%;
     z-index: 10;
     position: absolute;
@@ -122,12 +124,25 @@ header {
     padding: 14px 0 0 14px; 
 }
 
+a {
+    text-decoration: none;
+}
+
+
+
 .navList li {
     display: flex;
+    color: #fff;
+    padding: 4px 0 4px 0;
+    font-size: 20px;
 } 
 
-.mainInfo {
 
+.navList .linkTitle:hover {
+    background:#ffffff6b;
+}
+
+.mainInfo {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
